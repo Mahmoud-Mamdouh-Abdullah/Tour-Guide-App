@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#222627</color>
+    <color name="colorPrimaryDark">#18191D</color>
+    <color name="green">#14D779</color>
+    <color name="dark_green">#118D82</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="hover_color">#9E9E9E</color>
+    <color name="red">#DD2C00</color>
+    <color name="light_red">#f5425a</color>
+    <color name="light_blue">#2196F3</color>
+    <color name="light_grey">#EEEEEE</color>
+    <color name="blue_50">#E3F2FD</color>
+    <color name="greenA100">#b9f6ca</color>
+    <color name="greenA700">#00c853</color>
+    <color name="colorAccent">#1F232F</color>
+    <color name="color1">#03A9F4</color>
+    <color name="color2">#FF9800</color>
+    <color name="color3">#F44336</color>
+    <color name="color4">#5DDD62</color>
+</resources>

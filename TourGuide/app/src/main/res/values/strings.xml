@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="historical_places">Historical Places</string>
+    <string name="shopping_places">Shopping Places</string>
+    <string name="about_the_city">About Egypt</string>
+    <string name="the_location">Egypt</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_egypt">Egypt has one of the longest histories of any country, tracing its heritage along the Nile Delta back to the 6th–4th millennia BCE. Considered a cradle of civilisation, Ancient Egypt saw some of the earliest developments of writing, agriculture, urbanisation, organised religion and central government.Iconic monuments such as the Giza Necropolis and its Great Sphinx, as well the ruins of Memphis, Thebes, Karnak, and the Valley of the Kings, reflect this legacy and remain a significant focus of scientific and popular interest. Egypt\'s long and rich cultural heritage is an integral part of its national identity, which has endured, and often assimilated, various foreign influences, including Greek, Persian, Roman, Arab, Ottoman Turkish, and Nubian. Egypt was an early and important centre of Christianity, but was largely Islamised in the seventh century and remains a predominantly Muslim country, albeit with a significant Christian minority.Modern Egypt dates back to 1922, when it gained independence from the British Empire as a monarchy. Following the 1952 revolution, Egypt declared itself a republic, and in 1958 it merged with Syria to form the United Arab Republic, which dissolved in 1961. Throughout the second half of the 20th century, Egypt endured social and religious strife and political instability, fighting several armed conflicts with Israel in 1948, 1956, 1967 and 1973, and occupying the Gaza Strip intermittently until 1967. In 1978, Egypt signed the Camp David Accords, officially withdrawing from the Gaza Strip and recognising Israel. The country continues to face challenges, from political unrest, including the recent 2011 revolution and its aftermath, to terrorism and economic underdevelopment. Egypt\'s current government, a semi-presidential republic has been described by a number of watchdogs as authoritarian or heading an authoritarian regime, responsible for perpetuating the country\'s problematic human rights record.</string>
+    <string name="copyRight">Copyright © 2020 TourGuide All right reserved</string>
+    <string name="splash_msg">your guide with you all the time</string>
+</resources>

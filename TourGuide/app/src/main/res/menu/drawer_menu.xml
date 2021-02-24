@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about_the_city"/>
+
+        <item android:id="@+id/nav_places"
+            android:icon="@drawable/ic_place"
+            android:title="@string/historical_places"/>
+
+        <item android:id="@+id/nav_restaurants"
+            android:icon="@drawable/ic_restaurant"
+            android:title="@string/restaurants"/>
+
+        <item android:id="@+id/nav_shopping"
+            android:icon="@drawable/ic_shopping"
+            android:title="@string/shopping_places"/>
+    </group>
+
+</menu>
