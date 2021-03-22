@@ -48,23 +48,23 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new InfoFragment()).commit();
             navigationView.setCheckedItem(R.id.nav_info);
-            getSupportActionBar().setTitle("About Egypt");
+            getSupportActionBar().setTitle(R.string.about_egypt_header);
         } else {
             if (placeType.equals("historical")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HistoricalFragment()).commit();
                 navigationView.setCheckedItem(R.id.nav_places);
-                getSupportActionBar().setTitle("Historical Places");
+                getSupportActionBar().setTitle(R.string.historical_header);
             } else if (placeType.equals("restaurant")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new RestaurantsFragment()).commit();
                 navigationView.setCheckedItem(R.id.nav_restaurants);
-                getSupportActionBar().setTitle("Best restaurants");
+                getSupportActionBar().setTitle(R.string.rest_header);
             } else if (placeType.equals("shop")) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ShoppingFragment()).commit();
                 navigationView.setCheckedItem(R.id.nav_shopping);
-                getSupportActionBar().setTitle("Shopping Malls");
+                getSupportActionBar().setTitle(R.string.shops_header);
             }
         }
     }
@@ -127,22 +127,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             case R.id.nav_places:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HistoricalFragment()).commit();
-                getSupportActionBar().setTitle("Historical Places");
+                getSupportActionBar().setTitle(R.string.historical_header);
                 break;
             case R.id.nav_restaurants:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new RestaurantsFragment()).commit();
-                getSupportActionBar().setTitle("Best restaurants");
+                getSupportActionBar().setTitle(R.string.rest_header);
                 break;
             case R.id.nav_shopping:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ShoppingFragment()).commit();
-                getSupportActionBar().setTitle("Shopping Malls");
+                getSupportActionBar().setTitle(R.string.shops_header);
                 break;
             case R.id.nav_info:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new InfoFragment()).commit();
-                getSupportActionBar().setTitle("About Egypt");
+                getSupportActionBar().setTitle(R.string.about_egypt_header);
         }
         drawerLayout.closeDrawer(GravityCompat.START);
         return true;

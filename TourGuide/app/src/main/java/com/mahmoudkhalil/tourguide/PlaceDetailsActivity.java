@@ -58,7 +58,7 @@ public class PlaceDetailsActivity extends AppCompatActivity {
         Gson gson = new Gson();
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Details");
+        getSupportActionBar().setTitle(R.string.details_header);
 
         placeImageView = findViewById(R.id.place_imageView);
         placeNameTextView = findViewById(R.id.placeName_textView);

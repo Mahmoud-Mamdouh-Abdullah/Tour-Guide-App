@@ -52,11 +52,11 @@ public class ShoppingFragment extends Fragment {
     private void init() {
         shopsRecyclerView = view.findViewById(R.id.shops_recyclerView);
         shopsList = new ArrayList<>();
-        shopsList.add(new PlaceModel("Cairo Festival City Mall", "Spacious retail complex with international chain stores, a cinema & a \"dancing fountain\" attraction.", "New Cairo، Cairo Governorate", "108.04 km، Cairo Festival City Mall, Cairo Festival City, Ring Road, New Cairo، Cairo Governorate", "02 26186000", R.drawable.shopping_mall,4.6f));
-        shopsList.add(new PlaceModel("The First Mall", "Glamorous mall at the Four Seasons Hotel featuring luxury boutiques & a French restaurant.", "Giza", "35 Giza Street - Inside Four Seasons Hotel, Giza District", "02 35717803", R.drawable.shopping_mall,4.3f));
-        shopsList.add(new PlaceModel("Ramses Mall", "Basic, old-school mall with stores for clothing, accessories & souvenirs, casual dining & a cinema.", "Cairo", "Sahel Al Ghelel, Sharkas, Bulaq, Cairo Governorate", "02 25752025", R.drawable.shopping_mall,3.8f));
-        shopsList.add(new PlaceModel("Mall of Egypt", "Mall of Egypt is a shopping mall in Cairo, Egypt, owned and operated by the Majid Al Futtaim Group, located on Wahat Road. The mall houses major department stores, fashion, lifestyle, sports, electronics, home furnishing outlets", "6th of October", "El Wahat Rd, First 6th of October, Giza Governorate", "02 36120084", R.drawable.shopping_mall,4.6f));
-        shopsList.add(new PlaceModel("Arab Mall", "Huge shopping complex with brand-name stores, a food court, movie theater & fountain display.", "6th of October", "Al Giza Desert, Giza Governorate", "02 38260200", R.drawable.shopping_mall,4.8f));
+        shopsList.add(new PlaceModel(getString(R.string.mall1_name), getString(R.string.mall1_desc), getString(R.string.mall1_city), getString(R.string.mall1_address), getString(R.string.mall1_phone), R.drawable.shopping_mall,4.6f));
+        shopsList.add(new PlaceModel(getString(R.string.mall2_name), getString(R.string.mall2_desc), getString(R.string.giza), getString(R.string.mall2_address), getString(R.string.mall2_phone), R.drawable.shopping_mall,4.3f));
+        shopsList.add(new PlaceModel(getString(R.string.mall3_name), getString(R.string.mall3_desc), getString(R.string.cairo), getString(R.string.mall3_address), getString(R.string.mall3_phone), R.drawable.shopping_mall,3.8f));
+        shopsList.add(new PlaceModel(getString(R.string.mall4_name), getString(R.string.mall4_desc), getString(R.string.mall4_city), getString(R.string.mall4_address), getString(R.string.mall4_phone), R.drawable.shopping_mall,4.6f));
+        shopsList.add(new PlaceModel(getString(R.string.mall5_name), getString(R.string.mall6_desc), getString(R.string.mall4_city), getString(R.string.mall5_address), getString(R.string.mall5_phone), R.drawable.shopping_mall,4.8f));
 
         shopsAdapter = new PlaceRecyclerAdapter(shopsList, getActivity());
 

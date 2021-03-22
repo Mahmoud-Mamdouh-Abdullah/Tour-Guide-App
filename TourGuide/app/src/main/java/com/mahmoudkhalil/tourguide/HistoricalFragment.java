@@ -52,14 +52,14 @@ public class HistoricalFragment extends Fragment {
     private void init() {
         historicalRecyclerView = view.findViewById(R.id.historical_recyclerView);
         historicalList = new ArrayList<>();
-        historicalList.add(new PlaceModel("Cairo Tower", getString(R.string.cairo_tower_desc),"Cairo", "Zamalek, Cairo Governorate", R.drawable.cairo_tower,4.5f));
-        historicalList.add(new PlaceModel("El-Karnak Temple", getString(R.string.karnak_desc),"Luxor","Karnak, Luxor, Luxor Governorate.", R.drawable.egypt_luxor_karnak_temple,4.5f));
-        historicalList.add(new PlaceModel("Aswan Dam", getString(R.string.aswan_dam_desc),"Aswan","Manteqet as Sad Al Aali, Qism Aswan, Aswan Governorate.", R.drawable.high_dam,4.5f));
-        historicalList.add(new PlaceModel("Giza pyramid", getString(R.string.pyramids_desc),"Giza","Al Haram, Nazlet El-Semman, Al Giza Desert, Giza Governorate", R.drawable.pyramids_giza,4.5f));
-        historicalList.add(new PlaceModel("Citadel of Qaitbay", getString(R.string.qaitbay_desc),"Alexandria","As Sayalah Sharq, Qesm Al Gomrok, Alexandria Governorate", R.drawable.kayitbay_castle_alexandria,4.5f));
-        historicalList.add(new PlaceModel("Library of Alexandria", getString(R.string.alex_library_desc),"Alexandria","Al Azaritah WA Ash Shatebi, Qism Bab Sharqi, Alexandria Governorate", R.drawable.alex_library,4.5f));
-        historicalList.add(new PlaceModel("Saint Catherine's Monastery", getString(R.string.saint_cathrine_desc),"Sinai","Saint Catherine, South Sinai Governorate", R.drawable.saints_kathrine,4.5f));
-        historicalList.add(new PlaceModel("Abu Simbel temples", getString(R.string.abu_simple_desc),"Aswan","Abu Simbel, Aswan Governorate", R.drawable.abu_simple,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.cairo_tower), getString(R.string.cairo_tower_desc),getString(R.string.cairo), getString(R.string.cairo_tower_address), R.drawable.cairo_tower,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.el_karnak), getString(R.string.karnak_desc),getString(R.string.luxor),getString(R.string.karnak_address), R.drawable.egypt_luxor_karnak_temple,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.aswan_dam), getString(R.string.aswan_dam_desc),getString(R.string.aswan),getString(R.string.aswan_dam_address), R.drawable.high_dam,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.giza_pyramids), getString(R.string.pyramids_desc),getString(R.string.giza),getString(R.string.pyramids_address), R.drawable.pyramids_giza,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.qaitbay), getString(R.string.qaitbay_desc),getString(R.string.alex),getString(R.string.qaitbay_address), R.drawable.kayitbay_castle_alexandria,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.library_alex), getString(R.string.alex_library_desc),getString(R.string.alex),getString(R.string.alex_library_address), R.drawable.alex_library,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.saint_cathrine), getString(R.string.saint_cathrine_desc),getString(R.string.sinai),getString(R.string.saint_cathrine_address), R.drawable.saints_kathrine,4.5f));
+        historicalList.add(new PlaceModel(getString(R.string.abu_simble), getString(R.string.abu_simple_desc),getString(R.string.aswan),getString(R.string.abu_simple_address), R.drawable.abu_simple,4.5f));
 
         historicalAdapter = new PlaceRecyclerAdapter(historicalList, getActivity());
 

@@ -7,7 +7,6 @@ import android.widget.ImageView;
 
 import com.smarteist.autoimageslider.SliderViewAdapter;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SliderAdapter extends SliderViewAdapter<SliderAdapter.SliderViewHolder> {
